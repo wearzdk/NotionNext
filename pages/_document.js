@@ -63,6 +63,11 @@ class MyDocument extends Document {
 
           {/* 预先设置深色模式，避免闪烁 */}
           <script dangerouslySetInnerHTML={{ __html: darkModeScript }} />
+          {/* 加入统计 */}
+          <script
+            defer
+            src='https://analyze.webruix.cn/script.js'
+            data-website-id='924f49cb-2165-465c-b467-271dc674d6fb'></script>
         </Head>
 
         <body>
